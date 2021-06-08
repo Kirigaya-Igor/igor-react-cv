@@ -1,0 +1,52 @@
+{
+  "header": {
+    "title": "CV: Igor Shyian",
+    "homeLink": "home",
+    "reviewsLink": "reviews",
+    "langMenu": "language",
+    "loginLink": "login",
+    "registrationLink": "registration",
+    "singOutLink": "sing out",
+    "sayHello": "hello"
+  },
+  "homePage": {
+    "personalInfo": "personal information",
+    "education": "education",
+    "experience": "experience",
+    "additionalInfo": "skills and additional information"
+  },
+  "reviewsPage": {
+    "title": "reviews",
+    "name": "Name",
+    "date": "Date",
+    "noUser": "To write a review you must register or login",
+    "dbIsEmpty": "There are currently no comments.",
+    "haveReviews": "You have already submitted a review. Thank you for your review."
+  },
+  "loginPage": {
+    "title": "Log in Page",
+    "emailLabel": "Email address",
+    "passwordLabel": "Password",
+    "checkBox": "I'm not a robot",
+    "loginButton": "Log in",
+    "checkboxError": "Checkbox cannot be empty"
+  },
+  "registrationPage": {
+    "title": "Registration Page",
+    "emailLabel": "Email address",
+    "passwordLabel": "Password",
+    "checkBox": "I'm not a robot",
+    "registrationButton": "Register"
+  },
+  "addForm": {
+    "title": "Title",
+    "content": "Content",
+    "buttonLabel": "Add new content",
+    "addButton": "Add new content"
+  },
+  "deleteButton": "delete",
+  "appFooter": {
+    "author": "Author: Igor Shyian"
+  },
+  "error": " cannot be empty"
+}

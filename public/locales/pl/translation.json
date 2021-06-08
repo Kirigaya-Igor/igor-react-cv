@@ -1,0 +1,52 @@
+{
+  "header": {
+    "title": "CV: Igor Shyian",
+    "homeLink": "strona główna",
+    "reviewsLink": "opinie",
+    "langMenu": "język",
+    "loginLink": "zaloguj się",
+    "registrationLink": "zarejestuj się",
+    "singOutLink": "wyloguj się",
+    "sayHello": "witam"
+  },
+  "homePage": {
+    "personalInfo": "dane osobowe",
+    "education": "wykształcenie",
+    "experience": "doświadczenie zawodowe",
+    "additionalInfo": "umiejętności i dodatkowa informacja"
+  },
+  "reviewsPage": {
+    "title": "opinie",
+    "name": "Imię",
+    "date": "Data",
+    "noUser": "Aby zostawić opinie trzeba zarejstrować się, lub zalogować się",
+    "dbIsEmpty": "W tej chwili nie ma opinii.",
+    "haveReviews": "Opinia już przesłana, dziękuję za opinię."
+  },
+  "loginPage": {
+    "title": "Strona logowania",
+    "emailLabel": "Email adres",
+    "passwordLabel": "Hasło",
+    "checkBox": "Nie jestem robotem",
+    "loginButton": "Zaloguj się",
+    "checkboxError": "Checkbox musi być zaznacony"
+  },
+  "registrationPage": {
+    "title": "Strona rejstracjna",
+    "emailLabel": "Email adres",
+    "passwordLabel": "Hasło",
+    "checkBox": "Nie jestem robotem",
+    "registrationButton": "Zarejestuj się"
+  },
+  "addForm": {
+    "title": "Tytuł",
+    "content": "Zawartość",
+    "buttonLabel": "Dodaj nowy zapis",
+    "addButton": "Dodaj nowy zapis"
+  },
+  "deleteButton": "usuń",
+  "appFooter": {
+    "author": "Autor: Igor Shyian"
+  },
+  "error": " nie może być pusty"
+}

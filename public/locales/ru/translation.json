@@ -1,0 +1,52 @@
+{
+  "header": {
+    "title": "Шиян Игорь",
+    "homeLink": "главная",
+    "reviewsLink": "отзывы",
+    "langMenu": "язык",
+    "loginLink": "вход",
+    "registrationLink": "регистрация",
+    "singOutLink": "выйти",
+    "sayHello": "приветствую"
+  },
+  "homePage": {
+    "personalInfo": "личная информация",
+    "education": "образование",
+    "experience": "опыт работы",
+    "additionalInfo": "навыки и дополнительная информация"
+  },
+  "reviewsPage": {
+    "title": "отзывы",
+    "name": "Имя",
+    "date": "Дата",
+    "noUser": "Чтобы оставить отзыв вы должны зарегестрироваться, или авторизироваться.",
+    "dbIsEmpty": "В данный момент нет отзывов.",
+    "haveReviews": "Вы уже оставили отзыв, спасибо за ваш отзыв."
+  },
+  "loginPage": {
+    "title": "Страница авторизации",
+    "emailLabel": "Email адрес",
+    "passwordLabel": "Пароль",
+    "checkBox": "Я не робот",
+    "loginButton": "Войти",
+    "checkboxError": "Вы не отметили checkbox"
+  },
+  "registrationPage": {
+    "title": "Страница регистрации",
+    "emailLabel": "Email адрес",
+    "passwordLabel": "Пароль",
+    "checkBox": "Я не робот",
+    "registrationButton": "Зарегистрироваться"
+  },
+  "addForm": {
+    "title": "Заголовок",
+    "content": "Содержание",
+    "buttonLabel": "Добавить запись",
+    "addButton": "Добавить запись"
+  },
+  "deleteButton": "удалить",
+  "appFooter": {
+    "author": "Автор: Шиян Игорь"
+  },
+  "error": " не может быть пустым полем"
+}

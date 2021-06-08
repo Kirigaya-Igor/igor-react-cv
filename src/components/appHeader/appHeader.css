@@ -1,0 +1,74 @@
+.navbar h3 {
+    font-size: 25px;
+    color: white;
+}
+
+.activeLang{
+    color: cyan;
+    padding: 3px;
+}
+
+.span-hello {
+    font-size: 20px;
+    color: white;
+    text-transform: lowercase;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar h3:hover {
+    color: cyan;
+}
+
+.navbar li {
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white !important;
+}
+
+.select-item:hover {
+    border: 2px solid cyan;
+    background-color: #212529;
+    color: white;
+}
+
+.active {
+    border: 2px solid cyan;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #212529;
+}
+
+.dropdown-menu {
+    background-color: #212529;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.hide-dropdown {
+    display: none;
+}
+
+.navbar-nav .nav-item .btn:hover {
+    border: 2px solid cyan;
+    background-color: #212529;
+    color: white;
+}
+
+.btn-dark:focus, .btn-dark.focus {
+    box-shadow: none;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.btn-check:active+.btn-dark, .btn-check:checked+.btn-dark, .btn-dark.active, .btn-dark:active, .show>.btn-dark.dropdown-toggle {
+    border-color: cyan;
+}

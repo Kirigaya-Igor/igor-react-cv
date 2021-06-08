@@ -1,0 +1,15 @@
+.experience .container-fluid {
+    border-bottom: 1px solid black;
+}
+
+.experience h3 {
+    text-transform: uppercase;
+}
+
+.experience-description button {
+    margin: 5px;
+}
+
+.experience-description .btn-danger {
+    margin-left: 50px;
+}

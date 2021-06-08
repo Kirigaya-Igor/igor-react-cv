@@ -1,0 +1,15 @@
+.education .container-fluid {
+    border-bottom: 1px solid black;
+}
+
+.education h3 {
+    text-transform: uppercase;
+}
+
+.education-description button {
+    margin: 5px;
+}
+
+.education-description .btn-danger {
+    margin-left: 50px;
+}

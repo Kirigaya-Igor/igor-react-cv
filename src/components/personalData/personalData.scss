@@ -1,0 +1,26 @@
+.personal-data {
+    .container-fluid {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    h3 {
+        text-transform: uppercase;
+    }
+
+    .my-img {
+        border: 1px solid black;
+    }
+}
+
+.personal-data-description {
+    margin-left: 20px;
+
+    button {
+        margin: 5px;
+    }
+
+    .btn-danger {
+        margin-left: 50px;
+    }
+}

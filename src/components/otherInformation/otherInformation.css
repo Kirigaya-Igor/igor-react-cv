@@ -1,0 +1,11 @@
+.other-information-description button {
+    margin: 5px;
+}
+
+.other-information h3 {
+    text-transform: uppercase;
+}
+
+.other-information-description .btn-danger {
+    margin-left: 50px;
+}

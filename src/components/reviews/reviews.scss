@@ -1,0 +1,23 @@
+.reviews {
+
+  .reviews-items {
+    border: 2px solid #212529;
+    margin-bottom: 5px;
+  }
+
+  .reviews-items-content {
+    border-top: 1px solid #212529;
+    border-bottom: 1px solid #212529;
+  }
+
+  .reviews-form {
+    .add-form {
+      border: 2px solid #212529;
+    }
+  }
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+}
