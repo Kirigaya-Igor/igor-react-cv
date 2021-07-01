@@ -10,10 +10,10 @@ const Experience = () => {
     const {loading, items, fetchItems, removeItem} = useContext(FirebaseContext);
     const {t, i18n} = useTranslation();
 
-    // useEffect(() => {
-    //     fetchItems('experience', i18n.language);
-    //     // eslint-disable-next-line
-    // }, [i18n.language])
+    useEffect(() => {
+        fetchItems('experience', i18n.language);
+        // eslint-disable-next-line
+    }, [i18n.language])
 
     return (
         <div className='experience'>

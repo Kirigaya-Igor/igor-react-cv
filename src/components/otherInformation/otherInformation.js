@@ -10,10 +10,10 @@ const OtherInformation = () => {
     const {loading, items, fetchItems, removeItem} = useContext(FirebaseContext);
     const {t, i18n} = useTranslation();
 
-    // useEffect(() => {
-    //     fetchItems('otherInformation', i18n.language);
-    //     // eslint-disable-next-line
-    // }, [i18n.language])
+    useEffect(() => {
+        fetchItems('otherInformation', i18n.language);
+        // eslint-disable-next-line
+    }, [i18n.language])
 
     return (
         <div className='other-information'>
