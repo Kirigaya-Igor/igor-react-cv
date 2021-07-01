@@ -2,7 +2,7 @@ import React, {useReducer, useContext} from 'react';
 import axios from "axios";
 import {FirebaseContext, firebaseInit, FirebaseReducer} from "../firebase";
 import {ADD_ITEM, FETCH_ITEMS, REMOVE_ITEMS, SHOW_LOADER} from "../actions";
-import {AlertContext} from "../alertContext";
+import {AlertContext} from '../alertContext';
 import {useAuthState} from "react-firebase-hooks/auth";
 
 const url = process.env.REACT_APP_DB_URL;
@@ -27,10 +27,8 @@ export const FirebaseState = ({children}) => {
         dispatch({type: SHOW_LOADER})
     };
 
-    const fetchItems = async (tableName, lang) => {
-
+    const fetchItems = async (helpParam, tableName, lang) => {
         showLoader();
-
         try {
             const res = await axios.get(`${url}/${lang}/${tableName}.json`);
 
@@ -45,11 +43,16 @@ export const FirebaseState = ({children}) => {
                     tableName
                 }
 
-                dispatch({type: FETCH_ITEMS, payload})
+                if(!helpParam){
+                    dispatch({type: FETCH_ITEMS, payload})
+                }
+
             }
 
         } catch (error) {
             alert.showAlert(`${error.message}`);
+            // console.log(error.message);
+            // alert.showAlert('error');
         }
     }
 

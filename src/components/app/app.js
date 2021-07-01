@@ -17,8 +17,8 @@ const App = () => {
 
     return (
         <AuthProvider>
-            <FirebaseState>
-                <AlertState>
+            <AlertState>
+                <FirebaseState>
                     <BrowserRouter>
                         <Alert/>
                         <Switch>
@@ -29,8 +29,8 @@ const App = () => {
                             <Redirect to={"/"} />
                         </Switch>
                     </BrowserRouter>
-                </AlertState>
-            </FirebaseState>
+                </FirebaseState>
+            </AlertState>
         </AuthProvider>
 
     )

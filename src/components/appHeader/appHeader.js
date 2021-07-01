@@ -66,8 +66,8 @@ const AppHeader = () => {
                             {user ?
                                 <>
                                     <li className='nav-item'>
-                                        {/*<span className='span-hello' >{t('header.sayHello')} {user.email}</span>*/}
-                                        <span className='span-hello' >{t('header.sayHello') + ' Igor'}</span>
+                                        <span className='span-hello' >{t('header.sayHello')} {user.email}</span>
+                                        {/*<span className='span-hello' >{t('header.sayHello') + ' Igor'}</span>*/}
                                     </li>
 
                                     <li className='nav-item'>
